@@ -1,0 +1,423 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../projekat/slike/images.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: contain;
+}
+.div_kontejner{
+	display: flex;
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+}
+a:hover{
+	color: #0050ff;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 25px;
+}
+#header_str{
+	width: 100%;
+	min-width: 100%;
+	height: 110px;
+	background-color: #143659;
+	display: inline-block;
+}
+#glavni_logo{
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 220px;
+	float: left;
+}
+nav ul{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	min-width: 100%;
+	height: 45px;
+	background-color: #0e263f;
+	list-style-type: none;
+}
+nav div:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 2px solid rgba(256, 0, 0, 0.7);
+	color: #ffffff;
+	font-weight: 600;
+	transition: border 0.2s;
+	transition: background-color 0.2s;
+}
+nav div{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 2px solid rgba(0, 0, 0, 0);
+	width: 140px;
+	height: 43px;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+nav p{
+	color: #ffffff;
+	text-align: center;
+	margin: 10px 0px;
+}
+.selected_text{
+	color: #ff0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.telo{
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	width: 1300px;
+	padding: 40px;
+	box-shadow: 0px 10px 20px #000;
+	height: 1300px;
+}
+.novo{
+	margin-bottom:300px;
+}
+body{
+    height: 100vh;
+    background: #0690e6;
+}
+#o_nama{
+	height: 1250px;
+	text-align: center;
+	align-items: center;
+}
+#kontakt_stranica{
+	height: 1000px;
+}
+.naslov{
+	color: #ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#mapa{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.blok_lista1 .naslov{
+	color: #ff0000;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 10px;
+}
+.paragraf{
+	color: #ffffff;
+	font-size: 20px;
+	width: 100%;
+    line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+}
+.prostor{
+	margin-top: 60px;
+}
+.sredisnji_kontejner{
+	margin: 0px 30px;
+}
+#kontejner_za_slike div:hover{
+	border: 3px solid rgba(256, 0, 0, 0.6);
+}
+#lista{
+	color: #ffffff;
+	font-size: 20px;
+	float: left;
+    line-height: 2;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 20px;
+}
+.podlista{
+	color: #ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-left: 20px;;
+	font-size: 15px;
+	display: flex;
+}
+.blok_lista1{
+	width: 49%;
+}
+.o_nama{
+	text-align: center;
+	align-items: center;
+	color: #ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.paragraf_o_nama{
+	color: #ffffff;
+	font-size: 20px;
+	width: 100%;
+    line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+	text-align: center;
+	margin-left: 35%;
+}
+.blok_lista1 .paragraf{
+	margin-bottom: 20px;
+}
+.centriranje{
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap
+}
+#form_kontejner{
+	width: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 3px solid rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	padding: 72px 55px 90px 55px;
+	margin-top: 100px;
+}
+#forma_1{
+	width: 900px;
+}
+#forma_naslov{
+	display: block;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+	padding-bottom: 60px;
+	font-weight: bold;
+}
+#forma_1 #ime_i_prezime:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#forma_1 #naslov_poruke{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+#forma_1 #naslov_poruke:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#forma_1 #model, #marka, #godiste, #snaga, #kilometri, #zapremina, #broj_telefona, #ime_i_prezime, #slikacar, #cena{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+#forma_1 #broj_telefona:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#forma_1 #opcija{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #8d8d8d;
+}
+.slika_auta{
+	height: 250px;
+	width: 350px;
+	padding-right: 65px;
+}
+#textarea{
+	background-color: rgba(3, 3, 3, 0.7);
+	outline: none;
+	border: none;
+	width: 100%;
+	max-width: 100%;
+	height: 115px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+#textarea:hover{
+	background-color: rgba(150, 150, 150, 0.1);
+}
+#dugme_posalji, #dugme_resetuj{
+	background: rgba(0, 0, 0, 0.6);
+	width: 50%;
+	border: none;
+	height: 40px;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+	float: left;
+}
+#dugme_posalji:hover{
+	background: rgba(0, 0, 256, 0.3);
+}
+#dugme_resetuj:hover{
+	background: rgba(256, 0, 0, 0.3);
+}
+footer{
+	margin-top: 250px;
+	border-top: 6px solid #000000;
+}
+footer #footerBlock{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.9);
+	background-size: cover;
+	background-position: top;
+	position: relative;
+}
+footer #footerBlock #footerSection{
+	width: 50%;
+	height: 350px;
+	margin: 25px 25%;
+	position: absolute;
+	display: flex;
+}
+footer #footerBlock #footerSection .footerDivide{
+	width: 50%;
+	height: 350px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#footerText{
+	color: #c2c2c2;
+	font-size: 20px;
+    line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+#footerTextIco{
+	color: #c2c2c2;
+	font-size: 20px;
+    line-height: 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 20px;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+.ikonice{
+	height: 30px;
+	width: 30px;
+	margin: auto;
+	padding-right: 5px;
+}
+#footerEndText{
+	padding: 15px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #000000;
+}
+#prikazi{
+	display:none;
+}
+#tabela2{
+	color:white;
+}
+.odjava{
+	float: right;
+	color:white;
+	
+}
+.tekstauta{
+	margin-top:5px;
+	color:white;
+}
+.slikedodaj{
+	display:inline-block;
+	margin-left:160px;
+	margin-top:100px;
+	height:150px; 
+	width:200px;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+	opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+	width: 40%;
+	border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+	padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+	float: right;
+	padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+	span.psw {
+	  display: block;
+	  float: none;
+	}
+	.cancelbtn {
+	  width: 100%;
+	}
+  }
